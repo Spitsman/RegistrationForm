@@ -1,0 +1,53 @@
+html {
+	font-family: Helvetica;
+}
+
+.warning {
+	color: red;
+}
+
+
+.boxer {
+   display: table;
+   border-spacing: 20px;
+}
+ 
+.boxer .box-row {
+   display: table-row;
+
+}
+ 
+.boxer .box {
+   display: table-cell;
+   border: none;
+}
+
+.align-right {
+   	color: grey;
+   	font-size: 15px;
+	text-align: right;
+    vertical-align: middle;
+}
+
+input {
+	height: 20px;
+	font-size: 15px;
+}
+
+input[name='name'], input[name='nickname'], input[name='surname'] {
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+}
+
+button {
+	width: 173px;
+}
+
+.check {
+	color: #66FF66;
+}
+
+.exclamation {
+	color: red;
+}
